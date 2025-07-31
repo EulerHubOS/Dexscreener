@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(npm install)",
+      "Bash(npm start)",
+      "Bash(npm run:*)",
+      "Bash(node:*)",
+      "WebFetch(domain:docs.dexscreener.com)",
+      "Bash(timeout 30 npm start)",
+      "Bash(del test-api.js)",
+      "Bash(rm:*)"
+    ],
+    "deny": []
+  }
+}
